@@ -1,0 +1,12 @@
+#table{
+	width:700px;
+	margin:10px auto;
+	border:2px solid lightgrey;
+	overflow: auto;
+}
+td,th{	
+	color:black;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	width:350px;
+}

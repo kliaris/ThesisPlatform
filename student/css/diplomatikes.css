@@ -1,0 +1,36 @@
+
+#stili{
+	float:left;
+	width: 250px;
+	height:500px;
+	padding:5px;
+	margin-left:200px;
+	border:2px solid lightgrey;	
+}
+
+#keimenoDiplwmatikis{
+	width: 500px; 
+	height: 500px;
+	margin-left:500px;
+	border:2px solid lightgrey;
+}
+#keimeno{
+	color:black;
+}
+#egkrisi{
+	position :absolute;
+	padding:10px;	
+	margin-left:400px;
+}
+#diploTable td,th{
+	color:black;
+	border-bottom: 1px solid #ddd;
+}
+td {padding: 5px;}
+
+.highlight {
+    background: red;
+}
+.nonhighlighted {
+    background: white;
+}

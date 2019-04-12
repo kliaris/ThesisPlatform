@@ -1,0 +1,61 @@
+@charset "utf-8";
+* {padding:0; margin:0;}
+body{background:#666;}
+label{
+	display:block;
+	color:black;}
+p{margin:0px;padding:0px;}
+
+#header{
+	color:darkgrey;
+	width:100px;
+	height:50px;
+	margin: auto;
+	padding:25px;
+	
+}
+.title{
+	font-size:500%;
+	text-shadow:1px 1px 0px #000;
+	margin-left:-75px;
+}
+
+div#forms{
+	position:relative;	
+	width: 1000px;
+	height:250px;
+	background:#666;
+	border: 1px ;
+	border-radius:15px;
+	margin:150px auto;
+}
+div#regForm{	
+	position:absolute;
+	background:darkgrey;
+	float:left;
+	margin-left :20px;
+	padding :20px;
+	width: 400px;
+	border: 1px ;
+	border-radius:15px;
+}
+div#logForm{
+	position:absolute;
+	background:darkgrey;
+	margin-left :520px;
+	padding:20px;
+	width: 400px;
+	border: 1px ;
+	border-radius:15px;
+}
+.button{	
+	padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+h2{
+	color:white;
+}
+

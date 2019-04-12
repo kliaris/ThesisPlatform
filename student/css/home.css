@@ -1,0 +1,16 @@
+#infoTable{
+	width:650px;
+	margin:50px auto;
+	border:2px solid lightgrey;
+}
+td,th{
+		
+	color:black;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+}
+#button{
+	padding:10px;
+	margin-left:850px;
+	margin-bottom:50px;
+}
