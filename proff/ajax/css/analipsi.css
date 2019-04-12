@@ -1,0 +1,23 @@
+#container{
+	
+	width:700px;
+	margin:50px auto;
+
+}
+#table1{
+	width:700px;
+	margin: auto;
+	border:2px solid lightgrey;
+	overflow: auto;
+}
+#table2{
+	width:700px;
+	margin:10px auto;
+	border:2px solid lightgrey;
+	overflow: auto;
+}
+td,th{	
+	color:black;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}

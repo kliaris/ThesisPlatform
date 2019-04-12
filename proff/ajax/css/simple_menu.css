@@ -1,0 +1,127 @@
+
+#menu_top_bg {
+	width:1300px;
+	height:200px;
+	margin: 20px auto;
+	position: relative;
+	background: #003366;}
+	
+.title{
+	color:#ffffff;
+	font-size:500%;
+	text-shadow:1px 1px 0px #ff6600;
+	padding-top:10px;
+}
+
+/*-------------------------------
+    Main Menu
+--------------------------------*/
+
+#menu {
+	padding: 10px 25px;
+	margin: 20px;
+	position: relative;
+	text-transform: uppercase;
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.6);
+    background: white;
+}
+
+#menu li {
+        float: left;
+        border-right: 1px solid #ffb380;
+		border-left: 1px solid #ffb380;
+        position: relative;
+}
+
+#menu a {
+        padding: 7px;
+        color: #000000;
+        text-transform: uppercase;
+        font-family: Tahoma, Geneva, sans-serif;
+		font-size: 12px;
+		letter-spacing: 1px;
+        text-decoration: none;
+}
+
+#menu li:hover > a {
+        color: #ff6600;
+}
+
+#menu ol {
+	    text-align: left;
+        margin: 50px 0 0 0;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 32px;
+        z-index: 9999;
+		border: 1px solid #000000;
+        background: #FFF;
+        box-shadow: 3px 3px 10px rgba(0,0,0,.7);
+        border-radius: 2px;
+        transition: all .2s ease-in-out;
+}
+
+#menu li:hover > ol {
+        opacity: 1;
+        visibility: visible;
+        margin: -12px;
+}
+
+#menu ol ol {
+        top: 0;
+        left: 140px;
+        margin: 20px 0 0 0;
+        box-shadow: 3px 3px 3px rgba(0,0,0,.7);
+}
+
+#menu ol li {
+        float: none;
+        display: block;
+        border: 0;
+}
+
+#menu ol a {
+        padding: 5px 10px;
+        width: 200px ;
+        display: block;
+		border-bottom: 1px solid #000000;
+        float: none;
+        text-transform: none;
+}
+
+#menu ol a:hover {
+        background-color: #ff6600;
+		color: #ffffff;
+}
+
+#menu ol li:first-child > a:after {
+        content: '';
+        position: absolute;
+        left: 40px;
+        top: -6px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #003366;
+}
+
+#menu ol ol li:first-child a:after {
+        left: -7px;
+        top: 50%;
+        margin-top: -6px;
+        border-left: 0;
+        border-bottom: 6px solid transparent;
+        border-top: 6px solid transparent;
+        border-right: 6px solid #003366;
+}
+
+#menu ol li:first-child a:hover:after {
+        border-bottom-color: #003366;
+}
+
+#menu ol ol li:first-child a:hover:after {
+        border-right-color: #003366;
+        border-bottom-color: transparent;
+}
+
+

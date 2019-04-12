@@ -1,0 +1,30 @@
+
+#menuDiplo{
+	width:170px;
+	margin:50px auto;
+	border:2px solid lightgrey;
+}
+
+#diploInfo{
+	width:170px;
+	margin:50px auto;
+	border:2px solid lightgrey;
+	
+}
+#txtHint{
+	width:700px;
+	
+}
+
+td,th{	
+	color:black;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.highlight {
+    background: red;
+}
+.nonhighlighted {
+    background: white;
+}

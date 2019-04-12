@@ -1,0 +1,22 @@
+#parousiasi{
+	width:700px;
+	margin:50px auto;
+	border:2px solid lightgrey;
+	overflow:auto;
+}
+#sinolo{
+	width:700px;
+	margin:10px auto;
+	border:2px solid lightgrey;
+}
+#chart{
+	width:700px;
+	height:500px;
+	margin:10px auto;
+	border:2px solid lightgrey;
+}
+td,th{	
+	color:black;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
